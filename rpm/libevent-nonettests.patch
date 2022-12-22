@@ -11,3 +11,15 @@ index 44e29111..6aa3b99b 100644
  	{ "evtag/", evtag_testcases },
  	{ "rpc/", rpc_testcases },
  	{ "thread/", thread_testcases },
+diff --git a/test/regress_util.c b/test/regress_util.c
+index ef6a1487..809955d5 100644
+--- a/test/regress_util.c
++++ b/test/regress_util.c
+@@ -1483,7 +1483,6 @@ struct testcase_t util_testcases[] = {
+ 	{ "monotonic_prc", test_evutil_monotonic_prc, 0, &basic_setup, (void*)"" },
+ 	{ "monotonic_prc_precise", test_evutil_monotonic_prc, 0, &basic_setup, (void*)"precise" },
+ 	{ "monotonic_prc_fallback", test_evutil_monotonic_prc, 0, &basic_setup, (void*)"fallback" },
+-	{ "date_rfc1123", test_evutil_date_rfc1123, 0, NULL, NULL },
+ 	END_OF_TESTCASES,
+ };
+ 
