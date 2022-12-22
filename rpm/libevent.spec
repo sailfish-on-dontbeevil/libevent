@@ -9,7 +9,7 @@ Source0:        %{name}-%{version}.tar.bz2
 BuildRequires: gcc doxygen openssl-devel
 BuildRequires: automake libtool
 Patch0: libevent-nonettests.patch
-#Patch1: http-add-callback-to-allow-server-to-decline-and-the.patch
+Patch1: http-callback.patch
 
 %description
 Libevent additionally provides a sophisticated framework for buffered network IO, with support for sockets,
