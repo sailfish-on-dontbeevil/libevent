@@ -8,7 +8,7 @@ Source0:        %{name}-%{version}.tar.bz2
 
 BuildRequires: gcc doxygen openssl-devel
 BuildRequires: automake libtool
-#Patch0: libevent-nonettests.patch
+Patch0: libevent-nonettests.patch
 #Patch1: http-add-callback-to-allow-server-to-decline-and-the.patch
 
 %description

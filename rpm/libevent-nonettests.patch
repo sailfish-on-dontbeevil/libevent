@@ -1,0 +1,13 @@
+diff --git a/test/regress_main.c b/test/regress_main.c
+index 44e29111..6aa3b99b 100644
+--- a/test/regress_main.c
++++ b/test/regress_main.c
+@@ -374,8 +374,6 @@ struct testgroup_t testgroups[] = {
+ 	{ "signal/", signal_testcases },
+ 	{ "util/", util_testcases },
+ 	{ "bufferevent/", bufferevent_testcases },
+-	{ "http/", http_testcases },
+-	{ "dns/", dns_testcases },
+ 	{ "evtag/", evtag_testcases },
+ 	{ "rpc/", rpc_testcases },
+ 	{ "thread/", thread_testcases },
