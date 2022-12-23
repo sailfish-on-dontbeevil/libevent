@@ -36,11 +36,6 @@ with %{name}.
 %make_install
 rm -f %{buildroot}%{_libdir}/*.la
 
-%check
-%make_build check
-
-%ldconfig_scriptlets
-
 %files
 %doc ChangeLog
 %license LICENSE
